@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="encodeutf8">true</value>
+  <value name="shared">CnByaXZhdGUgc3RhdGljIFN0cmluZyBnZXREYXRhKE9iamVjdCBlbGVtZW50KQp7Cgl0cnkgewoJ
+CXJldHVybiBlbGVtZW50LnRvU3RyaW5nKCk7Cgl9IGNhdGNoIChFeGNlcHRpb24gZSkgewoJCS8v
+IFRPRE86IGhhbmRsZSBleGNlcHRpb24KCQlyZXR1cm4gIiI7Cgl9Cn0KcHVibGljIHN0YXRpYyBm
+aW5hbCB2b2lkIGV4cG9ydEV4Y2VsKElEYXRhIHBpcGVsaW5lKSB0aHJvd3MgU2VydmljZUV4Y2Vw
+dGlvbiB7Cn0KCQ==</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.lang.ns.*</value>
+    <value>com.softwareag.util.IDataMap</value>
+    <value>com.wm.app.b2b.server.PackageManager</value>
+    <value>com.wm.app.b2b.server.ServerAPI</value>
+    <value>java.io.ByteArrayOutputStream</value>
+    <value>com.wm.util.DebugMsg</value>
+    <value>java.io.ByteArrayInputStream</value>
+    <value>java.io.FileInputStream</value>
+    <value>java.io.FileOutputStream</value>
+    <value>java.io.IOException</value>
+    <value>java.util.ArrayList</value>
+    <value>java.util.Arrays</value>
+    <value>java.util.Iterator</value>
+    <value>java.util.List</value>
+    <value>java.util.Locale</value>
+    <value>java.util.Vector</value>
+    <value>java.text.SimpleDateFormat</value>
+    <value>java.util.Calendar</value>
+    <value>com.wm.util.JournalLogger</value>
+    <value>java.io.File</value>
+    <value>java.io.ObjectInput</value>
+    <value>java.io.ObjectInputStream</value>
+    <value>java.io.ObjectOutput</value>
+    <value>java.io.ObjectOutputStream</value>
+    <value>java.sql.Timestamp</value>
+  </array>
+</Values>

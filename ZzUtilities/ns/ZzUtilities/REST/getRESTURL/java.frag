@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">getRESTURL</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vy
+c29yKCk7DQoJU3RyaW5nCXNlcnZpY2VOYW1lID0gSURhdGFVdGlsLmdldFN0cmluZyggcGlwZWxp
+bmVDdXJzb3IsICJzZXJ2aWNlTmFtZSIgKTsNCnBpcGVsaW5lQ3Vyc29yLmRlc3Ryb3koKTsNCg0K
+U3RyaW5nIGhvc3ROYW1lID0gU2VydmVyQVBJLmdldFNlcnZlck5hbWUoKTsgDQpzZXJ2aWNlTmFt
+ZSA9ICBzZXJ2aWNlTmFtZS5yZXBsYWNlKCIuIiwgIi8iKTsNCnNlcnZpY2VOYW1lID0gc2Vydmlj
+ZU5hbWUuc3Vic3RyaW5nKDAsIHNlcnZpY2VOYW1lLmluZGV4T2YoIjoiKSk7DQpTdHJpbmcgcmVz
+dFVSTCA9ICAiaHR0cDovLyIgKyBob3N0TmFtZSArICIvcmVzdCIgKyAiLyIgKyBzZXJ2aWNlTmFt
+ZTsNCiANCg0KLy8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yXzEgPSBwaXBl
+bGluZS5nZXRDdXJzb3IoKTsNCklEYXRhVXRpbC5wdXQoIHBpcGVsaW5lQ3Vyc29yXzEsICJyZXN0
+VVJMIiwgcmVzdFVSTCApOw0KcGlwZWxpbmVDdXJzb3JfMS5kZXN0cm95KCk7DQoNCgk=</value>
+</Values>
