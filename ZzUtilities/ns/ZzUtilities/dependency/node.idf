@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">ZzUtilities.dependency</value>
+  <value name="is_public">false</value>
+  <value name="shared">CnB1YmxpYyBMaXN0IGNoZWNrRWxlbWVudChGbG93RWxlbWVudCBub2RlKQp7CgkKCQoJCglyZXR1
+cm4gbnVsbDsJCQkKCQoJCgkKCQoJCgkJCQp9CgoKCQ==</value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.util.ArrayUtil</value>
+    <value>com.wm.util.List</value>
+    <value>com.wm.app.b2b.server.ns.NSDependencyManager</value>
+    <value>com.wm.lang.flow.FlowElement</value>
+    <value>com.wm.lang.flow.FlowElementSimple</value>
+    <value>com.wm.lang.flow.FlowPathInfo</value>
+    <value>com.wm.lang.flow.FlowRoot</value>
+    <value>com.wm.lang.flow.FlowSequence</value>
+    <value>com.wm.lang.ns.DependencyManager</value>
+    <value>com.wm.lang.ns.NSName</value>
+    <value>com.wm.lang.ns.NSNode</value>
+    <value>com.wm.lang.ns.Namespace</value>
+    <value>java.lang.ref.Reference</value>
+    <value>java.util.ArrayList</value>
+    <value>java.util.Arrays</value>
+    <value>com.softwareag.g11n.util.ArrayUtils</value>
+    <value>com.wm.app.b2b.server.BaseService</value>
+    <value>com.wm.app.b2b.server.FlowSvcImpl</value>
+  </array>
+</Values>

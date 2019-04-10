@@ -44,7 +44,7 @@ public final class flow
 		String	flowServiceName = IDataUtil.getString( pipelineCursor, "flowServiceName" );
 		String	searchFieldName = IDataUtil.getString( pipelineCursor, "searchFieldName" );
 		String	searchFieldValue = IDataUtil.getString( pipelineCursor, "searchFieldValue" );
-		
+		  
 		FlowRoot flowRoot = null;
 		String isFound = "false";
 				
@@ -56,7 +56,7 @@ public final class flow
 		{
 			mandatoryFieldsExist = true;
 		}
-		
+		 
 		if(mandatoryFieldsExist)
 		{
 			NSNode nsNode = Namespace.current().getNode(flowServiceName); 		
