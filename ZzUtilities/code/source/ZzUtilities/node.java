@@ -49,22 +49,25 @@ public final class node
 		
 		for(String str : packlist)
 		{
-			Package packageObj = PackageManager.getPackage(str);
-			Vector<NSNode> NSNodeList = PackageManager.getNodes(packageObj);
-			for(NSNode NSNode : NSNodeList)
-			{				
-				NSType nstype = NSNode.getNodeTypeObj();
-				String type = nstype.toString();
-				if(nodeList.contains(type))
-				{
-					IData temp = IDataFactory.create();
-					IDataCursor tempCursor = temp.getCursor();
-					IDataUtil.put(tempCursor, "nodeName", NSNode.getNSName().toString());
-					IDataUtil.put(tempCursor,"nodeType",type);
-					nodeList1.add(temp);
-					
-				}
-			} 
+			if(!str.startsWith("Wm")){
+				Package packageObj = PackageManager.getPackage(str);
+				Vector<NSNode> NSNodeList = PackageManager.getNodes(packageObj);
+				for(NSNode NSNode : NSNodeList)
+				{				
+					NSType nstype = NSNode.getNodeTypeObj();
+					String type = nstype.toString();
+					if(nodeList.contains(type))
+					{
+						IData temp = IDataFactory.create();
+						IDataCursor tempCursor = temp.getCursor();
+						IDataUtil.put(tempCursor, "nodeName", NSNode.getNSName().toString());
+						IDataUtil.put(tempCursor,"nodeType",type);
+						nodeList1.add(temp);
+						
+					}
+				} 
+			}
+			
 		}
 		
 		IDataCursor pipelineCurosr_1 = pipeline.getCursor();
